@@ -1,8 +1,12 @@
-def function_summ(number1, number2):
+def function_summ():
+    number1 = int(input("Введите первое число: "))
+    number2 = int(input("Введите второе число: "))
     summ = number1 + number2
-    return summ
+    print(f"Сумма равна = {summ}")
 
 
-def function_diff(number1, number2):
+def function_diff():
+    number1 = int(input("Введите первое число: "))
+    number2 = int(input("Введите второе число: "))
     diff = number1 - number2
-    return diff
+    print(f"Разность равна = {diff}")
